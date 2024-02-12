@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'JetBrains Mono';font-size: 20px;
+  background: linear-gradient(135deg, #464549, #181717);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.form {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+
+.link {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  text-align: center;
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+  padding: 5px;
+  color: #dc3545;
+  font-size: 16px;
+}
+
+.link::placeholder {
+  color: #dc3545;
+}
+
+.Get {
+  width: 100%;
+  background-color: #dc3545;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+}
+
+.Get:hover {
+  background-color: #ffffff;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden.active {
+  display: block;
+}
+
+.credit {
+ display: flex;
+  margin-top: 20px;
+  color: white;
+}
+
+.credit a{
+  text-decoration: none;
+  color: red;
+}
+
+
+.text-red{
+  color: red;
+}
+
