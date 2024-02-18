@@ -85,11 +85,18 @@ h1 {
 
 .credit a{
   text-decoration: none;
-  color: red;
+  color: white;
+  margin-left: 6px;
 }
 
+.credit a:hover{
+  transition: 1.1s;
+  color: red;
+  text-decoration: none;
+}
 
 .text-red{
   color: red;
+  margin: 6px;
 }
 
